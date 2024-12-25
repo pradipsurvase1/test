@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prize</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        .main1 {
+            width: 100vw;
+            height: 100vh;
+            background: url("images/prize-back.png") no-repeat center center;
+            background-size: cover;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main1">
+        <div class="head">
+            <h1>Counselling Fee</h1>
+        </div>
+        <div class="prize">
+            <div class="medical">
+                <h2>Medical</h2>
+                <h3>Rs 7000 + GST%</h3>
+                <img src="images/medical.png">
+
+
+            </div>
+            <div class="medical">
+                <h2>Engineering</h2>
+                <h3>Rs 10000 + GST%</h3>
+                <img src="images/engin.png">
+
+
+            </div>
+        </div>
+        <div class="head">
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+
+
+
+    <script>
+        // Select the close button
+const closeBtn = document.querySelector('.close-btn');
+
+// Add a click event listener to the button
+closeBtn.addEventListener('click', function () {
+    // Redirect to demo.html
+    window.location.href = 'index.html';
+});
+    </script>
+</body>
+
+</html>
